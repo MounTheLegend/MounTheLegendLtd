@@ -18,7 +18,9 @@ ul {
     margin-left: 1px;
     padding: 0;
     width: 300px;
-    height: 832.5px;
+    height: 100%;
+    min-height: 790px;
+    max-height: max-content;
     background-color: #e2cfbd;
 }
   
@@ -51,12 +53,12 @@ li a:hover {
     margin-left: 1603px;
     margin-top: -142px;
     width: 300px;
-    height: 947.5px;
+    height: 910px;
     background-color: #e2cfbd;
 }
 
 .fa {
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 5px;
     padding: 20px;
     font-size: 7px;
@@ -95,25 +97,25 @@ li a:hover {
 #fi {
     position: absolute;
     bottom: 0;
-    width: 1900px;
+    width: 1903px;
     background-color: #e2cfbd;
-    height: 95px;
+    height: 150px;
     margin-top: -100px;
 }
 #fp {
     position: absolute;
     bottom: 0;
-    width: 1900px;
+    width: 1903px;
     background-color: #e2cfbd;
-    height: 95px;
+    height: 150px;
     margin-top: 620px;
 }
 #fb {
     position: absolute;
     bottom: 0;
-    width: 1900px;
+    width: 1903px;
     background-color: #e2cfbd;
-    height: 95px;
+    height: 150px;
 }
 #sidebarb {
     list-style-type: none;
@@ -161,14 +163,31 @@ h3 {
 #titel {
     font-size: 48px;
     text-align: center;
-    margin-top: -790px;
+    margin-top: -760px;
 }
 #titelb {
     font-size: 48px;
     text-align: center;
-    margin-top: -770px;
+    margin-top: -760px;
 }
 p   {
     padding-left: 310px;
     padding-right: 310px;
 }
+marquee {
+    margin-top: 30px;
+}
+#tekstbio {
+    margin:4px, 4px;
+    padding:4px;
+    width: 1295px;
+    height: 530px;
+    margin-top: -15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
