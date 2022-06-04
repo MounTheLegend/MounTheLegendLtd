@@ -1,71 +1,275 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Nikola Tesla</title>
-    <link href="css/Website - Mounir Taalat.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <header>
-        <div id="kop">
-            <a href="Index.html"><h1 style="text-align: center; font-size: 100px; margin: 25px">Nikola Tesla</h1></a>
-        </div>
-    </header>
-    <ul class="vertical ex">
-        <li>
-            <a href="Index.html">Home</a>
-        </li>
-        <li>
-            <a href="Biografie - Mounir Taalat.html">Biografie</a>
-        </li>
-        <li>
-            <a href="Uitvindingen - Mounir Taalat.html">Uitvindingen</a>
-        </li>
-        <li>
-            <a href="Rivaal - Mounir Taalat.html">Rivaal</a>
-        </li>
-        <li>
-            <a class="active" href="Bronnen - Mounir Taalat.html">Bronnen</a>
-        </li>
-    </ul>
-    <div id="sidebarb">
-    </div>
-    <h1 id="titelb">
-        Bronnen
-    </h1>    
-    <div id="tekstbio">
-    <section id="bron">
-    <article>
-        <p><a href="https://www.history.com/topics/inventions/nikola-tesla#:~:text=Nikola%20Tesla%20was%20born%20in,killed%20in%20a%20riding%20accident." target="_blank">History.com Editors. (2021, 28 oktober). Nikola Tesla. HISTORY. Geraadpleegd op 2 juni 2022, van https://www.history.com/topics/inventions/nikola-tesla#:%7E:text=Nikola%20Tesla%20was%20born%20in,killed%20in%20a%20riding%20accident.</a></p>
-    </article>
-    <br>
-    <article>
-        <p><a href="https://teslasciencecenter.org/nikola-tesla-inventions/" target="_blank">Nikola Tesla Inventions. (2020, 10 november). Tesla Science Center at Wardenclyffe. Geraadpleegd op 2 juni 2022, van https://teslasciencecenter.org/nikola-tesla-inventions/</a></p>
-    </article>
-    <br>
-    <article>
-        <p><a href="https://nl.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Wikipedia-bijdragers. (2022, 21 mei). Nikola Tesla. Wikipedia. Geraadpleegd op 2 juni 2022, van https://nl.wikipedia.org/wiki/Nikola_Tesla</a></p>
-    </article>
-    <br>
-    <article>
-        <p><a href="https://www.pbs.org/newshour/science/5-things-you-didnt-know-about-nikola-tesla" target="_blank">Jacobson, R. I. E. (2013, 11 juli). 8 Things You Didn’t Know About Nikola Tesla. PBS NewsHour. Geraadpleegd op 3 juni 2022, van https://www.pbs.org/newshour/science/5-things-you-didnt-know-about-nikola-tesla</a></p>
-    </article>
-    <br>
-    <article>
-        <p><a href="https://medium.com/lessons-from-history/17-weird-facts-about-nikola-tesla-the-man-who-invented-the-20th-century-c18d103fbf01" target="_blank">Milojković, M., MA. (2022, 5 februari). 17 Weird Facts about Nikola Tesla, the Man Who Invented the 20th Century. Medium. Geraadpleegd op 3 juni 2022, van https://medium.com/lessons-from-history/17-weird-facts-about-nikola-tesla-the-man-who-invented-the-20th-century-c18d103fbf01</a></p>
-    </article>
-    </section>
-    </div>
-    <footer id="fp">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="mailto:mounthelegendltd@gmail.com" class="fa fa-google" target="_blank"></a>
-        <a href="https://www.instagram.com/mounthelegendltd/" class="fa fa-instagram" target="_blank"></a>
-        <a href="https://twitter.com/MTL_Ltd" class="fa fa-twitter" target="_blank"></a>
-        <a href="https://www.facebook.com/profile.php?id=100081020831852" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.youtube.com/channel/UCDldffcaF9VSkMo1ZlVyMoA" class="fa fa-youtube" target="_blank"></a>
-        <div id="copyright">
-            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> MounTheLegend Ltd. All Rights Reserved</p>
-        </div>
-    </footer>
-</body>
-</html>
+#kop {     
+    background-color: #e2cfbd;
+    border: thin solid white;
+    height: 150px;
+    text-align: center;
+    margin 0;
+    padding: 0;
+    font-weight: bold;
+}
+#koph1{
+    text-align: center; 
+    font-size: 100px; 
+    margin: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 1px;
+    padding: 0;
+    width: 300px;
+    height: 100%;
+    min-height: 790px;
+    max-height: max-content;
+    background-color: #e2cfbd;
+}
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: rgb(170, 170, 170);
+    color: white;
+}
+.active {
+    background-color: #9a9a9a;
+    color: white;
+}
+#quote {
+    margin-left: 300px;
+    margin-top: -810px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1280px;
+}
+#sidebar {
+   
+    list-style-type: none;
+    margin-left: 1603px;
+    margin-top: -142px;
+    width: 300px;
+    height: 910px;
+    background-color: #e2cfbd;
+}
+
+.fa {
+    margin-top: 45px;
+    margin-left: 5px;
+    padding: 20px;
+    font-size: 7px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: red;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: purple;
+    color: white;
+}
+.fa-google {
+    background: #e4cf5c;
+    color: white;
+}
+#fi {
+    position: fixed;
+    bottom: 0;
+    width: 1903px;
+    background-color: #e2cfbd;
+    height: 150px;
+    margin-top: -100px;
+}
+#fp {
+    position: fixed;
+    bottom: 0;
+    width: 1903px;
+    background-color: #e2cfbd;
+    height: 150px;
+    margin-top: 620px;
+}
+#fb {
+    position: fixed;
+    bottom: 0;
+    width: 1903px;
+    background-color: #e2cfbd;
+    height: 150px;
+}
+#sidebarb {
+    list-style-type: none;
+    margin-left: 1603px;
+    margin-top: -832.5px;
+    width: 300px;
+    height: 832.5px;
+    background-color: #e2cfbd;  
+}
+#copyright {
+    text-align: center;
+    margin-top: -50px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+} 
+a:visited {
+    text-decoration: none;
+    color: black;
+} 
+a:hover {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}  
+a:active {
+    text-decoration: none;
+    color: black; 
+}
+aside { 
+    background: #9a9a9a;
+    float: right;
+    margin-top: -650px;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin-right: 65px;
+ }
+ body {
+    background-color: rgb(228, 228, 228);
+ }
+h3 {
+    text-align: center;
+}
+#titel {
+    font-size: 48px;
+    text-align: center;
+    margin-top: -760px;
+}
+#titelb {
+    font-size: 48px;
+    text-align: center;
+    margin-top: -760px;
+}
+p   {
+    padding-left: 310px;
+    padding-right: 310px;
+}
+marquee {
+    margin-top: 30px;
+}
+#tekstbio {
+    margin:4px, 4px;
+    padding:4px;
+    width: 1295px;
+    height: 530px;
+    margin-top: -15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#bron {
+    text-align: center;
+}
+#imgb {
+    width: 124px;
+    height: 166px;
+}
+#imgbd {
+    margin-left: 1075px;
+    margin-top: -1000px;
+}
+#marqi {
+    background-color: rgb(228, 228, 228);
+    position: relative;
+}
+#imgu {
+    height: 150px;
+    width: 150px;
+}
+#imgud {
+    margin-top: -1375px;
+    margin-left: 1075px;
+}
+#imgu2 {
+    height: 150px;
+    width: 75px;
+}
+#imgud2 {
+    margin-top: 1060px;
+    margin-left: 1065px;
+}
+#imgr {
+    height: 175px;
+    width: 125px;
+}
+#imgrd {
+    margin-left: 1075px;
+    margin-top: -435px;
+}
+#img4{
+    width: 200;
+    height: 275px;
+}
+#img5{
+    width: 250px;
+    height: 250px;
+}
+#img1i{
+    margin: -750px;
+    margin-left: 350px;
+    position: fixed;
+}
+#img2i{
+    margin-top: -750px;
+    margin-left: 1325px;
+    position: fixed;
+}
+#img3i{
+    margin-top: -425px;
+    margin-left: 800px;
+    position: fixed;
+}
+#img4i{
+    margin-left: 350px;
+    margin-top: -450px;
+    position: fixed;
+}
+#img5i{
+    margin-left: 1275px;
+    margin-top: -425px;
+    position: fixed;
+}
+#ti {
+    text-align: center;
+    margin-top: -675px;
+    margin-left: 450px;
+    width: 1000px;
+}
+#aff {
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+}
